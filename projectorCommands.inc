@@ -42,8 +42,19 @@ $PROJECTORS = Array(
                                  "STOP_BITS" => "1",
                                  "PARITY" => "none"
                  ),
+	
+	
+		Array("NAME" => "NP410",
+		      		"ON" => "\x02\x00\x00\x00\x00\x02",
+ 			      	"OFF" => "\x02\x01\x00\x00\x00\x03",
+	
+			        "BAUD_RATE" => "9600",
+                                "CHAR_BITS" => "8",
+                                "STOP_BITS" => "1",
+                                "PARITY" => "none"
+                 ),
 
-			Array("NAME" => "Samsung_Commercial_Flat_Panel_MDC",
+		Array("NAME" => "Samsung_Commercial_Flat_Panel_MDC",
 				"ON"     => "\xAA\x11\xFE\x01\x01\x11",
 				"OFF"    => "\xAA\x11\xFE\x01\x00\x10",
 				//Inputs
