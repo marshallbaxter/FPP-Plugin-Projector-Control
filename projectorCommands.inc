@@ -30,6 +30,19 @@ $PROJECTORS = Array(
 				"IP" => "",
 				"PASSWORD" => ""
 		),
+	
+		Array("NAME" => "EZ580",
+
+                                 "ON" => "\x02\x41\x44\x5A\x5A\x3B\x50\x4F\x4E\x03",
+                                 "OFF" => "\x02\x41\x44\x5A\x5A\x3B\x50\x4F\x46\x03",
+                                 "VIDEO" => "\x30\x30\x5F\x76\x31",
+
+                                 "BAUD_RATE" => "9600",
+                                 "CHAR_BITS" => "8",
+                                 "STOP_BITS" => "1",
+                                 "PARITY" => "none"
+                 ),
+
 			Array("NAME" => "Samsung_Commercial_Flat_Panel_MDC",
 				"ON"     => "\xAA\x11\xFE\x01\x01\x11",
 				"OFF"    => "\xAA\x11\xFE\x01\x00\x10",
