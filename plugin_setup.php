@@ -19,7 +19,7 @@ include_once 'version.inc';
 
 $myPid = getmypid();
 
-$gitURL = "https://github.com/FalconChristmas/FPP-Plugin-Projector-Control.git";
+$gitURL = "https://github.com/MarshallBaxter/FPP-Plugin-Projector-Control.git";
 
 //arg0 is  the program
 //arg1 is the first argument in the registration this will be --list
