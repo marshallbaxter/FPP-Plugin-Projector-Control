@@ -1,11 +1,11 @@
 {
-	"repoName": "FPP-Plugin-Projector-Control",
+	"repoName": "FPP-Projector-Control",
 	"name": "Extended Projector Control",
 	"author": "Marshall Baxter, Ben Shaver (bshaver) and Pat Delaney (patdelaney)",
 	"description": "Extended basic projector control for FPP",
-	"homeURL": "https://github.com/marshallbaxter/FPP-Plugin-Projector-Control",
-	"srcURL": "https://github.com/marshallbaxter/FPP-Plugin-Projector-Control.git",
-	"bugURL": "https://github.com/marshallbaxter/FPP-Plugin-Projector-Control/issues",
+	"homeURL": "https://github.com/marshallbaxter/FPP-Projector-Control",
+	"srcURL": "https://github.com/marshallbaxter/FPP-Projector-Control.git",
+	"bugURL": "https://github.com/marshallbaxter/FPP-Projector-Control/issues",
 	"allowUpdates": 1,
 	"versions": [
 		{
