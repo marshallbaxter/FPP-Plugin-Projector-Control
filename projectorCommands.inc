@@ -45,7 +45,7 @@ $PROJECTORS = Array(
 				
 		      		"Shutter_Close " => "\x02\x41\x44\x5A\x5A\x3B\x4F\x53\x48\x4A\x31\x03",
 		      		"Shutter_Open" => "\x02\x41\x44\x5A\x5A\x3B\x4F\x53\x48\x4A\x30\x03",
-		      		"Shutter_Toggle" => "\x02\x41\x44\x5A\x5A\x3B\x4F\x53\x48\03"
+		      		"Shutter_Toggle" => "\x02\x41\x44\x5A\x5A\x3B\x4F\x53\x48\03",
 		
                                 "BAUD_RATE" => "9600",
                                 "CHAR_BITS" => "8",
