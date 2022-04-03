@@ -33,14 +33,24 @@ $PROJECTORS = Array(
 	
 		Array("NAME" => "EZ580",
 
-                                 "ON" => "\x02\x41\x44\x5A\x5A\x3B\x50\x4F\x4E\x03",
-                                 "OFF" => "\x02\x41\x44\x5A\x5A\x3B\x50\x4F\x46\x03",
-                                 "VIDEO" => "\x30\x30\x5F\x76\x31",
-
-                                 "BAUD_RATE" => "9600",
-                                 "CHAR_BITS" => "8",
-                                 "STOP_BITS" => "1",
-                                 "PARITY" => "none"
+                                "ON" => "\x02\x41\x44\x5A\x5A\x3B\x50\x4F\x4E\x03",
+                                "OFF" => "\x02\x41\x44\x5A\x5A\x3B\x50\x4F\x46\x03",
+		      
+                                "HDMI" => "\x02\x41\x44\x5A\x5A\x3B\x49\x49\x53\x3A\x48\x44\x31\x03",
+                                "DVI" => "\x02\x41\x44\x5A\x5A\x3B\x49\x49\x53\x3A\x44\x56\x49\x03",
+                                "Display_Port" => "\x02\x41\x44\x5A\x5A\x3B\x49\x49\x53\x3A\x44\x50\x31\x03",
+                                "RGB1" => "\x02\x41\x44\x5A\x5A\x3B\x49\x49\x53\x3A\x52\x47\x31\03",
+                                "RGB2" => "\x02\x41\x44\x5A\x5A\x3B\x49\x49\x53\x3A\x52\x47\x32\03",
+                                "VIDEO" => "\x02\x41\x44\x5A\x5A\x3B\x49\x49\x53\x3A\x56\x49\x44\x03",
+				
+		      		"Shutter_Close " => "\x02\x41\x44\x5A\x5A\x3B\x4F\x53\x48\x4A\x31\x03",
+		      		"Shutter_Open" => "\x02\x41\x44\x5A\x5A\x3B\x4F\x53\x48\x4A\x30\x03",
+		      		"Shutter_Toggle" => "\x02\x41\x44\x5A\x5A\x3B\x4F\x53\x48\03"
+		
+                                "BAUD_RATE" => "9600",
+                                "CHAR_BITS" => "8",
+                                "STOP_BITS" => "1",
+                                "PARITY" => "none"
                  ),
 	
 	
